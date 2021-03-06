@@ -1,0 +1,7 @@
+<h1>Chat room</h1>
+<div id="messages">
+  <%# render @messagesはrender partial: "messages/message", collection
+  :@messagesの略。メッセージ毎にmessages/_message.html.erbというパーシャルが
+  適用されるようになる %>
+  <%= render @messages %>
+</div>
